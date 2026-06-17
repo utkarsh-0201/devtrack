@@ -1,0 +1,50 @@
+[
+  {
+    "id": 1,
+    "title": "Login button not working on mobile",
+    "description": "Users on iOS 17 cannot tap the login button",
+    "status": "open",
+    "priority": "critical",
+    "reporter_id": 1
+  },
+  {
+    "id": 2,
+    "title": "Search results not loading",
+    "description": "Search query returns a blank page on Chrome",
+    "status": "in progress",
+    "priority": "critical",
+    "reporter_id": 2
+  },
+  {
+    "id": 3,
+    "title": "Profile picture upload fails",
+    "description": "File upload returns 500 error for images larger than 2MB",
+    "status": "open",
+    "priority": "critical",
+    "reporter_id": 2
+  },
+  {
+    "id": 4,
+    "title": "Notifications delayed",
+    "description": "Push notifications arrive 10 minutes late on Android",
+    "status": "closed",
+    "priority": "low",
+    "reporter_id": 3
+  },
+  {
+    "id": 5,
+    "title": "Password reset email not sent",
+    "description": "Users report not receiving password reset emails",
+    "status": "open",
+    "priority": "low",
+    "reporter_id": 1
+  },
+  {
+    "id": 6,
+    "title": "Server Error",
+    "description": "Server Error on Login Page",
+    "status": "open",
+    "priority": "critical",
+    "reporter_id": 2
+  }
+]
