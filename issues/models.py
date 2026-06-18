@@ -95,7 +95,6 @@ class CriticalIssue(Issue):
     """
     Represents a critical issue in the system.
     """
-    
     def describe(self):
         return f"[URGENT] {self.title} — needs immediate attention"
 

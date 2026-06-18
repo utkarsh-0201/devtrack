@@ -1,6 +1,6 @@
 from django.urls import path
 
-from .views import IssueView
+from .views import IssueView, ReporterView
 
 app_name = "issues"  # enables namespaced URL reversals, e.g. reverse("issues:list")
 
@@ -21,5 +21,10 @@ urlpatterns = [
         "issues/",
         IssueView.as_view(),
         name="issue-list-create",
+    ),
+    path(
+        "reporters/",
+        ReporterView.as_view(),
+        name="reporter-list-create",
     ),
 ]
