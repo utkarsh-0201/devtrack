@@ -169,13 +169,13 @@ The API will be available at `http://127.0.0.1:8000/api/`.
 **Examples & Screenshots**
 Below are example request/response screenshots included in this repository. The images are stored at the workspace root `screenshots/` folder — from this README they are referenced using `../screenshots/`.
 
-![Open Issues](../screenshots/devtrack_open_issues.png)
+![Open Issues](./screenshots/devtrack_open_issues.png)
 Open issues list (GET /api/issues/)
 
-![Create Reporter Request/Response](../screenshots/devtrack_post_reporter.png)
+![Create Reporter Request/Response](./screenshots/devtrack_post_reporter.png)
 Reporter creation request + response (POST /api/reporters/)
 
-![Failed Issue Create](../screenshots/devtrack_post_issues_Fail.png)
+![Failed Issue Create](./screenshots/devtrack_post_issues_Fail.png)
 Example of a failed issue creation (validation error)
 
 ---
@@ -191,6 +191,6 @@ Example of a failed issue creation (validation error)
 
 - `TypedDict` for request/response shapes: Using `TypedDict` clarifies and documents the exact expected keys and value types for `Issue` and `Reporter` JSON objects. `TypedDict` is a typing aid rather than a runtime ORM.
 
-- `_ISSUE_KEYS` and `_REPORTER_KEYS` as `frozenset`: The allowed-key sets are stored as `frozenset[str]` so membership checks and set operations are efficient and the collections are immutable. Immutability signals that these are constants and prevents accidental modification at runtime.
+- `_ISSUE_KEYS` and `_REPORTER_KEYS` as `frozenset`: The allowed-key sets are stored as `frozenset[str]` so membership checks and set operations are efficient and the collections are immutable. Immutability signals that these are constants and prevents accidental modification at runtime.q
 
 ---
